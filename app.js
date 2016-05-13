@@ -23,7 +23,7 @@ var indexRouter = require('./routes/index');
 var PhotoRouter = require('./routes/api/photos')
 
 app.use('/', indexRouter);
-app.use('/api/movies', photoRouter);
+app.use('/api/photos', photoRouter);
 
 
 //listening
