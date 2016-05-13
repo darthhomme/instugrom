@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 
 // routing
 var indexRouter = require('./routes/index');
-var PhotoRouter = require('./routes/api/photos')
+var photoRouter = require('./routes/api/photos')
 
 app.use('/', indexRouter);
 app.use('/api/photos', photoRouter);
