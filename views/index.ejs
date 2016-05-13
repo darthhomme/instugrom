@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include ./partials/head %>
+  </head>
+  <body>
+    <nav id="navigation">
+      <ul style="margin:0;">
+       <li style="margin:0;"><a class="nav" id="home" href="/">Home</a></li>
+       <li style="margin:0;"><a class="nav" id="tasks" href="/api/photos">API</a></li>
+       </ul>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <h2>Search Photo</h2>
+        <form id="form">
+          <input type="text" name="name" placeholder="...search"><br>
+          <input type="submit" value="Search" class="button-primary">
+          <hr>
+        </form>
+      </div>
+<div class="row">
+  <div class="list-container">
+    <div id="query-result">
+    </div>
+  </div>
+</div>
+</div>
+
+  </body>
+</html>
